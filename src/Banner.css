@@ -47,11 +47,32 @@
 }
 
 .banner__fadeBottom{
-    height: 7.4rem;
+    height: 18.4rem;
     background-image: linear-gradient(
         180deg,
         transparent,
         rgba(37,37,37,0.61),
         #111
     );
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .banner{
+        height: auto;
+        background-size:contain;
+        object-fit: contain;
+        background-repeat: no-repeat;
+    }
+    .banner__description{
+        display: none;
+    }
+    .banner__fadeBottom{
+        height: 1.4rem;
+    }
+    .banner__contents{
+        padding-top: 90px;
+    }
+    .banner__title{
+        font-size: 2rem;
+    }
 }

@@ -2,8 +2,8 @@
     position: fixed;
     top: 0;
     width: 100%;
-    padding-top: 20px;
-    height: 40px;
+    padding-top: 15px;
+    height: 55px;
     z-index: 1;
 
     transition-timing-function: ease-in;
@@ -15,14 +15,14 @@
 }
 
 .nav__logo{
-    position: fixed;
+    position: absolute;
     left: 20px;
     width: 80px;
     object-fit: contain;
 }
 
 .nav__avatar{
-    position: fixed;
+    position: absolute;
     right: 20px;
     width: 30px;
     object-fit: contain;

@@ -34,3 +34,10 @@
     transform: scale(1.09);
     opacity: 1;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .row__posters{
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+}
